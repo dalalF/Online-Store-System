@@ -23,23 +23,7 @@ these functions:
 - Searching items using binary search (in Store class).
  # The Structure of class :
 4. Solution Structure:
-(Class) Store → MainClass
-i.	(QueueObject) newOrders
-ii.	(QueueObject) processedOrders
-iii.	(QueueObject) removedOrders
-iv.	(DLL Object) items : Contains all the store’s items
-v.	(Method) resetOrders: removes all the orders from all the queues.
-vi.	(Method) addNewOrder
-vii.	(Method) processOrder : move an order to processedOrders and 
-viii.	calculate the sales of this order to add it on sales.
-ix.	(Method) removeOrder : remove an order to removedOrders queue by 
-x.	the order’s number while maintaining the original order of the queue.
-xi.	(Method) printAllOrders : printing all orders of one of the queues (new, 
-xii.	processed and removed).
-xiii.	(Method) calculateSales : Calculate the sales of processed orders.
-xiv.	(Method) generateItemsTree : Generating tree of store’s items (Bonus)
-xv.	(Method) binarySearchItems : Searching items of store using binary 
-xvi.	search (Bonus)
+![image](https://user-images.githubusercontent.com/105475810/169775835-fcc384e2-c1ef-41e5-85ca-cc7e70e26fc7.png)
 
 
 # Sample Data :
