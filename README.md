@@ -23,6 +23,7 @@ these functions:
 - Searching items using binary search (in Store class).
  # The Structure of class :
 a. (Class) Store → MainClass
+
 i. (QueueObject) newOrders
 ii. (QueueObject) processedOrders
 iii. (QueueObject) removedOrders
