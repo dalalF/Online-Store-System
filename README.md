@@ -22,7 +22,6 @@ these functions:
 - Generating items trees of items (in Store class). 
 - Searching items using binary search (in Store class).
  # The Structure of class :
-4. Solution Structure:
 ![image](https://user-images.githubusercontent.com/105475810/169775835-fcc384e2-c1ef-41e5-85ca-cc7e70e26fc7.png)
 
 
