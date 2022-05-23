@@ -22,19 +22,24 @@ these functions:
 - Generating items trees of items (in Store class). 
 - Searching items using binary search (in Store class).
  # The Structure of class :
+4. Solution Structure:
 a. (Class) Store → MainClass
--(QueueObject) newOrders
--(QueueObject) processedOrders
-- (QueueObject) removedOrders
--(DLL Object) items : Contains all the store’s items
--(Method) resetOrders: removes all the orders from all the queues.
--(Method) addNewOrder
--(Method) processOrder : move an order to processedOrders and calculate the sales of this order to add it on sales.
--(Method) removeOrder : remove an order to removedOrders queue by the order’s number while maintaining the original order of the queue.
--(Method) printAllOrders : printing all orders of one of the queues (new, processed and removed).
--(Method) calculateSales : Calculate the sales of processed orders.
--(Method) generateItemsTree : Generating tree of store’s items 
--(Method) binarySearchItems : Searching items of store using binary search (Bonus)
+i. (QueueObject) newOrders
+ii. (QueueObject) processedOrders
+iii. (QueueObject) removedOrders
+iv. (DLL Object) items : Contains all the store’s items
+v. (Method) resetOrders: removes all the orders from all the queues.
+vi. (Method) addNewOrder
+vii. (Method) processOrder : move an order to processedOrders and 
+calculate the sales of this order to add it on sales.
+viii. (Method) removeOrder : remove an order to removedOrders queue by 
+the order’s number while maintaining the original order of the queue.
+ix. (Method) printAllOrders : printing all orders of one of the queues (new, 
+processed and removed).
+x. (Method) calculateSales : Calculate the sales of processed orders.
+xi. (Method) generateItemsTree : Generating tree of store’s items (Bonus)
+xii. (Method) binarySearchItems : Searching items of store using binary 
+search (Bonus)
 b. (Class) Queue → Queue
 i. Generic Queue Class WILL BE GIVEN
 c. (Class) Order → QueueNode
@@ -55,6 +60,7 @@ i. (int) itemNumber
 ii. (String) itemName
 iii. (double) itemPrice
 iv. (double) itemCost
+
 # Sample Data :
 ![image](https://user-images.githubusercontent.com/105475810/169773935-502d1a94-d2c9-4a92-9b62-10ead5b3f008.png)
 
